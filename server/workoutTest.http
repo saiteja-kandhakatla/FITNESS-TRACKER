@@ -1,0 +1,16 @@
+###create workout
+post http://localhost:1230/workouts/createWorkout
+Content-Type: application/json
+
+{
+  "name": "Morning Walk",
+  "type": "Cardio",
+  "duration": 30,
+  "date": "2025-04-12",
+  "userId": "67f9c3a131b6f4b5c2046eb0"
+}
+###get all  workout
+get http://localhost:1230/workouts/getAllWorkouts/67f9c4477c07dff097aa5972
+###delete a WorkOut
+delete http://localhost:1230/workouts/deleteWorkout/67f9d68aebd30cfa5eab6527
+

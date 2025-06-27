@@ -1,0 +1,347 @@
+/* .fitness-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f1f1f;
+  color: white;
+  padding: 1rem 2rem;
+  position: relative;
+  z-index: 10;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00ff99;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-left: auto;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00ff99;
+}
+
+.auth-section {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  position: relative;
+}
+
+.auth-btn {
+  padding: 0.5rem 1rem;
+  background-color: #00ff99;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #1f1f1f;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.auth-btn.secondary {
+  background-color: transparent;
+  border: 2px solid #00ff99;
+  color: #00ff99;
+}
+
+.auth-btn.secondary:hover {
+  background-color: #00ff99;
+  color: #1f1f1f;
+}
+
+.auth-btn:hover {
+  opacity: 0.9;
+}
+
+.avatar-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.user-icon {
+  font-size: 1.2rem;
+  color: #00ff99;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: #2b2b2b;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 255, 153, 0.15);
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.dropdown-menu a,
+.dropdown-menu button {
+  padding: 0.8rem 1rem;
+  color: white;
+  background: none;
+  border: none;
+  text-align: left;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu button:hover {
+  background-color: #00ff9955;
+}
+
+.dropdown-logout {
+  border-top: 1px solid #444;
+}
+
+.menu-btn {
+  display: none;
+  background: none;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1f1f1f;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    padding: 1rem 2rem;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .dropdown-menu {
+    right: 1rem;
+  }
+} */.fitness-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f1f1f;
+  color: white;
+  padding: 1rem 2rem;
+  position: relative;
+  z-index: 10;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00ff99;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-left: auto;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00ff99;
+}
+
+.auth-section {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  position: relative;
+}
+
+.auth-btn {
+  padding: 0.5rem 1rem;
+  background-color: #00ff99;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #1f1f1f;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.auth-btn.secondary {
+  background-color: transparent;
+  border: 2px solid #00ff99;
+  color: #00ff99;
+}
+
+.auth-btn.secondary:hover {
+  background-color: #00ff99;
+  color: #1f1f1f;
+}
+
+.auth-btn:hover {
+  opacity: 0.9;
+}
+
+.avatar-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.user-icon {
+  font-size: 1.2rem;
+  color: #00ff99;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: #2b2b2b;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 255, 153, 0.15);
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.dropdown-menu a,
+.dropdown-menu button {
+  padding: 0.8rem 1rem;
+  color: white;
+  background: none;
+  border: none;
+  text-align: left;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu button:hover {
+  background-color: #00ff9955;
+  color: #1f1f1f;
+}
+
+.dropdown-logout {
+  border-top: 1px solid #444;
+  padding: 0.6rem 1rem;
+  margin-top: 0.4rem;
+  background-color: transparent;
+  color: #ff4d4d;
+  font-weight: bold;
+  border-radius: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dropdown-logout:hover {
+  background-color: #ff4d4d33;
+  color: white;
+}
+
+.menu-btn {
+  display: none;
+  background: none;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1f1f1f;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    padding: 1rem 2rem;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .dropdown-menu {
+    right: 1rem;
+  }
+}

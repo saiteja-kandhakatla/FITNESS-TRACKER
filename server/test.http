@@ -1,0 +1,26 @@
+####get
+get http://localhost:1230/user/home
+
+
+###signUp
+post http://localhost:1230/user/signup
+Content-Type: application/json
+
+{
+  "name": "testuser2",
+  "password": "testpassword2",
+  "age": 252,
+  "email":"test22@mail.com"
+}
+###/login
+post http://localhost:1230/user/login
+Content-Type: application/json
+
+{
+  "password": "testpassword2",
+  "email":"test22@mail.com"
+}
+
+###profile
+get http://localhost:1230/user/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyMkBtYWlsLmNvbSIsImlhdCI6MTc0NDQzMTc0MSwiZXhwIjoxNzQ0NDM1MzQxfQ.mryXuxMQPeNpxkasfGcvP2B2qR4xbXSgFmAFIJKjQWk
